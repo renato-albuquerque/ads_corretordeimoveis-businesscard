@@ -1,0 +1,92 @@
+@media (min-width: 375px) {
+    body {
+        width: 37.5rem;
+    }
+    
+    .container {
+        width: 37.5rem;
+    }
+
+    .section-1 {
+        background-position: right -2% center;
+    }
+    
+    .header {
+        width: 33.5rem;
+    }
+
+    .wrapFirstInfoSection-2 {
+        width: 35.5rem;
+    }
+
+    .imageSection-2 {
+        width: 25rem;
+    }    
+
+    .textSection-2 {
+        font-size: 1.1rem;
+    }
+    
+    .nameJorgeSection-2 {
+        font-size: 2.5rem;
+    }
+
+    .jobJorgeSection-2 {
+        font-size: 1.1rem;
+    }
+
+    .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-linkedin-in, .fa-x-twitter {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 425px) {
+    body {
+        width: 42.5rem;
+    }
+    
+    .container {
+        width: 42.5rem;
+    }
+
+    .section-1 {
+        background-position: center center;
+    }
+    
+    .header {
+        width: 34.5rem;
+    }
+
+    .flags {
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .fa-share-nodes {
+        font-size: 4rem;
+    } 
+
+    .wrapFirstInfoSection-2 {
+        width: 40.5rem;
+    }
+
+    .imageSection-2 {
+        width: 28rem;
+    }    
+
+    .textSection-2 {
+        font-size: 1.3rem;
+    }
+    
+    .nameJorgeSection-2 {
+        font-size: 3rem;
+    }
+
+    .jobJorgeSection-2 {
+        font-size: 1.3rem;
+    }
+
+    .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-linkedin-in, .fa-x-twitter {
+        font-size: 6rem;
+    }
+}

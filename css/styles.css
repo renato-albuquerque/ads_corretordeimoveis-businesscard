@@ -1,0 +1,166 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+/* ----- */
+
+:root {
+    font-size: 62.5%;
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+
+    --green-color: #2BA549;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+/* mobile s, 320px */
+
+body {
+    font-family: var(--ff-roboto);
+    width: 32rem;
+    margin: 0 auto;
+    background-color: var(--white-color);
+}
+
+.container {
+    width: 32rem;
+    margin: 0 auto;
+}
+
+.section-1 {
+    height: 35rem;
+    background-image: url(files/marcozero-pernambuco.jpg);
+    background-position: right 13% center;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    width: 28rem;
+    margin: 0 auto;
+}
+
+.headerFlags {
+    display: flex;
+    gap: 2rem;
+}
+
+.flags {
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.fa-share-nodes {
+    font-size: 3rem;
+    color: var(--green-color);
+    background-color: var(--white-color);
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+
+.section-2 {
+    background-image: linear-gradient(var(--green-color), #207936, black);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.wrapFirstInfoSection-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 32rem;
+}
+
+.imageSection-2 {
+    border-radius: 1rem;
+    width: 20rem;
+    margin-top: 3rem;
+}
+
+.textSection-2 {
+    margin-top: 2rem;
+    text-align: center;
+    text-shadow: 3px 3px 8px var(--black-color);
+    font-size: 1rem;
+    font-family: var(--ff-poppins);
+    color: var(--white-color);
+}
+
+.nameJorgeSection-2 {
+    text-align: center;
+    text-shadow: 3px 3px 8px var(--black-color);
+    margin-top: 1.5rem;
+    color: var(--white-color);
+    font-family: var(--ff-poppins);
+    font-size: 2rem;
+}
+
+.jobJorgeSection-2 {
+    text-align: center;
+    font-family: var(--ff-poppins);
+    font-size: 1rem;
+    color: var(--white-color);
+}
+
+.firstWrapIconsSection-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 7rem;
+}
+
+.secondWrapIconsSection-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+.thirdWrapIconsSection-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-linkedin-in, .fa-x-twitter {
+    font-size: 4rem;
+    color: var(--white-color);
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+.footer p {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.footer .footerName {
+    color:var(--green-color);
+}
+
+.footer .footerName:hover {
+    color:var(--white-color);
+    transition: all 0.3s;
+}
