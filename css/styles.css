@@ -16,7 +16,7 @@
     --ff-roboto: 'Roboto', sans-serif;
     --ff-poppins: 'Poppins', sans-serif;
 
-    --green-color: #2BA549;
+    --green-color: #33c958;
     --white-color: #ffffff;
     --black-color: #000000;
 }
@@ -73,7 +73,7 @@ body {
 } 
 
 .section-2 {
-    background-image: linear-gradient(var(--green-color), #207936, black);
+    background-image: linear-gradient(var(--green-color), #2BA549, black);
     border-radius: 0 0 1rem 1rem;
 }
 
