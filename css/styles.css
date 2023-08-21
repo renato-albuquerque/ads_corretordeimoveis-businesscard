@@ -37,8 +37,8 @@ body {
 
 .section-1 {
     height: 35rem;
-    background-image: url(files/image-RN.jpeg);
-    background-position: right 13% center;
+    background-image: url(../files/image-RN.jpeg);
+    background-position: right 59% center;
     background-size: cover;
     border-radius: 1rem 1rem 0 0;
 }
@@ -142,7 +142,7 @@ body {
     margin-bottom: 7rem;
 } */
 
-.fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-linkedin-in, .fa-x-twitter {
+.fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-linkedin-in { /* .fa-x-twitter */
     font-size: 4rem;
     color: var(--white-color);
 }
