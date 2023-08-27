@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot]()
+![screenshot](files/screencapture-adscorretordeimoveis-cartaodevisita.png)
 
 ### Links
 
-- [Solution URL here]()
-- [Live Site URL here]()
+- [Solution URL here](https://github.com/renato-albuquerque/ads_corretordeimoveis-businesscard)
+- [Live Site URL here](https://adscorretordeimoveis-cartaodevisita.vercel.app/)
 
 ## My process
 
